@@ -36,6 +36,7 @@ body {
   justify-content: space-between;
   padding-top: 60px;
   margin-bottom: 90px;
+  z-index: 1;
 }
 
 .menu-list {
@@ -289,6 +290,7 @@ body {
     background-color: #fff;
     border: none;
     cursor: pointer;
+    z-index: 2;
   }
   .menu-btn:before {
     content: '';
